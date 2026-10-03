@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0b0f24" />
+<title>Luna Noir — a tiny world of things I built</title>
+<meta name="description" content="Luna Noir (lunanoir21): vibe coder building with AI. Walk through a pixel-art night world to find Dynamic Island, Flare Notch, Quay, Life OS, Tally, Inktype and Aurguard." />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Luna Noir — a tiny world of things I built" />
+<meta property="og:description" content="A pixel-art night world. Every building is a project." />
+<link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+<div id="app">
+  <canvas id="game" aria-label="Interactive pixel-art world. Use arrow keys or A and D to walk, E to enter a building."></canvas>
+  <div id="hud" hidden></div>
+  <div id="prompt" hidden></div>
+  <div id="toast" hidden></div>
+  <div id="travel" hidden></div>
+  <div id="dialog" hidden role="dialog" aria-modal="true"></div>
+  <div id="intro"></div>
+  <div class="vignette"></div>
+</div>
+<section id="plain" class="sr-only" aria-label="All projects">
+  <h1>Luna Noir</h1>
+  <p>Vibe coder building with AI. Hyprland rice, Quickshell widgets, Rust tools.</p>
+  <ul id="plain-list"></ul>
+</section>
+<noscript><p style="color:#fff;padding:2rem">This site is an interactive pixel world and needs JavaScript. Everything is also on github.com/lunanoir21.</p></noscript>
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
