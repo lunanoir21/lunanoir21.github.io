@@ -1,5 +1,9 @@
 # Luna Noir: a tiny pixel world
 
+![built with Claude Code](https://img.shields.io/badge/built%20with-Claude%20Code-D97757)
+![AI-assisted](https://img.shields.io/badge/AI--assisted-yes-e6edf3)
+![directed by human](https://img.shields.io/badge/directed%20by-human-3d444d)
+
 An interactive portfolio for [lunanoir21](https://github.com/lunanoir21). You walk a small
 night world; every building is a project.
 
@@ -8,6 +12,9 @@ night world; every building is a project.
 - **Sound:** procedural WebAudio (drone, wind, generative pentatonic arp, blips). No audio files.
 - **UI:** DOM overlay with Pixelify Sans and Press Start 2P (self-hosted via Fontsource).
 - **Data:** star counts refresh from the GitHub API at runtime; offline falls back to built-in numbers.
+
+> [!IMPORTANT]
+> **Built with AI.** This project was largely written with [Claude Code](https://claude.com/claude-code). The ideas, design decisions, testing and final review are mine.
 
 ## Controls
 
